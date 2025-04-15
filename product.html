@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>جزئیات محصول | Luxemize</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>Luxemize</h2>
+  <nav>
+    <a href="index.html">خانه</a>
+    <a href="#">محصولات</a>
+    <a href="#">تماس</a>
+  </nav>
+</header>
+
+<main class="product-detail">
+  <section class="product-card">
+    <img src="img/product-sample.jpg" alt="محصول نمونه">
+    <h3>لباس سفارشی</h3>
+    <p class="price">۵۰۰,۰۰۰ تومان</p>
+
+    <form>
+      <label for="material">جنس:</label>
+      <select id="material" name="material">
+        <option value="cotton">نخی</option>
+        <option value="linen">کتان</option>
+      </select>
+
+      <label for="color">رنگ:</label>
+      <select id="color" name="color">
+        <option value="white">سفید</option>
+        <option value="black">مشکی</option>
+      </select>
+
+      <label for="size">سایز:</label>
+      <select id="size" name="size">
+        <option value="s">کوچک</option>
+        <option value="m">متوسط</option>
+        <option value="l">بزرگ</option>
+      </select>
+
+      <button type="submit">افزودن به سبد خرید</button>
+    </form>
+  </section>
+
+  <!-- نظرات کاربران -->
+  <section class="reviews">
+    <h4>نظرات کاربران</h4>
+    <div class="review">
+      <p><strong>فاطمه:</strong> خیلی با کیفیت بود!</p>
+      <p class="stars">★★★★★</p>
+      <a href="#">بیشتر بخوانید</a>
+    </div>
+  </section>
+
+  <!-- محصولات مشابه -->
+  <section class="similar-products">
+    <h4>محصولات مشابه</h4>
+    <div class="products">
+      <div class="product-card">
+        <img src="img/related1.jpg" alt="محصول ۱">
+        <h3>پیراهن بهاری</h3>
+        <p class="price">۴۰۰,۰۰۰ تومان</p>
+      </div>
+      <div class="product-card">
+        <img src="img/related2.jpg" alt="محصول ۲">
+        <h3>شال نخی</h3>
+        <p class="price">۲۵۰,۰۰۰ تومان</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 فروشگاه Luxemize</p>
+</footer>
+
+</body>
+</html>
